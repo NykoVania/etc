@@ -1,0 +1,1141 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local lol = Instance.new("ScreenGui")
+local TopFrame = Instance.new("Frame")
+local TabNameFrame = Instance.new("Frame")
+local Tabnamedecorframe = Instance.new("Frame")
+local TabNameLabel = Instance.new("TextLabel")
+local Topdecorframe = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local Close = Instance.new("ImageButton")
+local NavDecorFrame = Instance.new("Frame")
+local FramesFrame = Instance.new("Frame")
+local HomeFrame = Instance.new("Frame")
+local Creds = Instance.new("TextLabel")
+local Instructions = Instance.new("TextLabel")
+local Info = Instance.new("TextLabel")
+local MoreInfo = Instance.new("TextLabel")
+local Template2BackFrame = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+local TextButton_3 = Instance.new("TextButton")
+local TextButton_4 = Instance.new("TextButton")
+local TextButton_5 = Instance.new("TextButton")
+local TextButton_6 = Instance.new("TextButton")
+local TextButton_7 = Instance.new("TextButton")
+local TextButton_8 = Instance.new("TextButton")
+local TextButton_9 = Instance.new("TextButton")
+local TextButton_10 = Instance.new("TextButton")
+local TextButton_11 = Instance.new("TextButton")
+local TextButton_12 = Instance.new("TextButton")
+local TextButton_13 = Instance.new("TextButton")
+local TextButton_14 = Instance.new("TextButton")
+local TextButton_15 = Instance.new("TextButton")
+local TextButton_16 = Instance.new("TextButton")
+local TextButton_17 = Instance.new("TextButton")
+local TextButton_18 = Instance.new("TextButton")
+local Template3BackFrame = Instance.new("Frame")
+local TextButton_19 = Instance.new("TextButton")
+local TextButton_20 = Instance.new("TextButton")
+local TextButton_21 = Instance.new("TextButton")
+local Template1BackFrame = Instance.new("Frame")
+local TPTab3 = Instance.new("TextButton")
+local TPTab2 = Instance.new("TextButton")
+local TPTab1 = Instance.new("TextButton")
+local Tabnamedecorframe_2 = Instance.new("Frame")
+local TPFrame1 = Instance.new("Frame")
+local TextButton_22 = Instance.new("TextButton")
+local TextButton_23 = Instance.new("TextButton")
+local TextButton_24 = Instance.new("TextButton")
+local TextButton_25 = Instance.new("TextButton")
+local TextButton_26 = Instance.new("TextButton")
+local TextButton_27 = Instance.new("TextButton")
+local TextButton_28 = Instance.new("TextButton")
+local TextButton_29 = Instance.new("TextButton")
+local TextButton_30 = Instance.new("TextButton")
+local TextButton_31 = Instance.new("TextButton")
+local TextButton_32 = Instance.new("TextButton")
+local TextButton_33 = Instance.new("TextButton")
+local TextButton_34 = Instance.new("TextButton")
+local TextButton_35 = Instance.new("TextButton")
+local TextButton_36 = Instance.new("TextButton")
+local TPFrame3 = Instance.new("Frame")
+local TextButton_37 = Instance.new("TextButton")
+local TextButton_38 = Instance.new("TextButton")
+local TextButton_39 = Instance.new("TextButton")
+local TextButton_40 = Instance.new("TextButton")
+local TextButton_41 = Instance.new("TextButton")
+local TextButton_42 = Instance.new("TextButton")
+local TextButton_43 = Instance.new("TextButton")
+local TextButton_44 = Instance.new("TextButton")
+local TextButton_45 = Instance.new("TextButton")
+local TextButton_46 = Instance.new("TextButton")
+local TextButton_47 = Instance.new("TextButton")
+local TextButton_48 = Instance.new("TextButton")
+local TextButton_49 = Instance.new("TextButton")
+local TextButton_50 = Instance.new("TextButton")
+local TextButton_51 = Instance.new("TextButton")
+local TPFrame2 = Instance.new("Frame")
+local TextButton_52 = Instance.new("TextButton")
+local TextButton_53 = Instance.new("TextButton")
+local TextButton_54 = Instance.new("TextButton")
+local TextButton_55 = Instance.new("TextButton")
+local TextButton_56 = Instance.new("TextButton")
+local TextButton_57 = Instance.new("TextButton")
+local TextButton_58 = Instance.new("TextButton")
+local TextButton_59 = Instance.new("TextButton")
+local TextButton_60 = Instance.new("TextButton")
+local TextButton_61 = Instance.new("TextButton")
+local TextButton_62 = Instance.new("TextButton")
+local TextButton_63 = Instance.new("TextButton")
+local TextButton_64 = Instance.new("TextButton")
+local TextButton_65 = Instance.new("TextButton")
+local TextButton_66 = Instance.new("TextButton")
+local Frame = Instance.new("Frame")
+local Cfg = Instance.new("TextButton")
+local HomeTab = Instance.new("TextButton")
+local Main = Instance.new("TextButton")
+local hideval = Instance.new("BoolValue")
+hideval.Parent = Title
+
+--Properties:
+
+lol.Name = "lol"
+lol.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+TopFrame.Name = "TopFrame"
+TopFrame.Parent = lol
+TopFrame.BackgroundColor3 = Color3.fromRGB(23, 23, 25)
+TopFrame.BorderColor3 = Color3.fromRGB(13, 13, 13)
+TopFrame.BorderSizePixel = 0
+TopFrame.Position = UDim2.new(0.163533837, 0, 0.256983221, 0)
+TopFrame.Size = UDim2.new(0, 478, 0, 37)
+
+TabNameFrame.Name = "TabNameFrame"
+TabNameFrame.Parent = TopFrame
+TabNameFrame.BackgroundColor3 = Color3.fromRGB(23, 23, 25)
+TabNameFrame.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TabNameFrame.BorderSizePixel = 0
+TabNameFrame.Position = UDim2.new(0.255230129, 0, 1.00000036, 0)
+TabNameFrame.Size = UDim2.new(0, 356, 0, 30)
+
+Tabnamedecorframe.Name = "Tabnamedecorframe"
+Tabnamedecorframe.Parent = TabNameFrame
+Tabnamedecorframe.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+Tabnamedecorframe.BorderSizePixel = 0
+Tabnamedecorframe.Position = UDim2.new(0, 0, 1, 0)
+Tabnamedecorframe.Size = UDim2.new(0, 356, 0, 4)
+
+TabNameLabel.Name = "TabNameLabel"
+TabNameLabel.Parent = TabNameFrame
+TabNameLabel.BackgroundColor3 = Color3.fromRGB(43, 44, 47)
+TabNameLabel.BackgroundTransparency = 1.000
+TabNameLabel.BorderSizePixel = 0
+TabNameLabel.Position = UDim2.new(0.230337068, 0, 0.133332819, 0)
+TabNameLabel.Size = UDim2.new(0, 191, 0, 26)
+TabNameLabel.Font = Enum.Font.Ubuntu
+TabNameLabel.Text = "Home"
+TabNameLabel.TextColor3 = Color3.fromRGB(85, 0, 0)
+TabNameLabel.TextSize = 20.000
+TabNameLabel.TextWrapped = true
+
+Topdecorframe.Name = "Topdecorframe"
+Topdecorframe.Parent = TopFrame
+Topdecorframe.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+Topdecorframe.BorderSizePixel = 0
+Topdecorframe.Position = UDim2.new(0, 0, 1, 0)
+Topdecorframe.Size = UDim2.new(0, 478, 0, 4)
+
+Title.Name = "Title"
+Title.Parent = TopFrame
+Title.BackgroundColor3 = Color3.fromRGB(43, 44, 47)
+Title.BackgroundTransparency = 1.000
+Title.BorderSizePixel = 0
+Title.Position = UDim2.new(0.0167364012, 0, 0, 0)
+Title.Size = UDim2.new(0, 352, 0, 37)
+Title.Font = Enum.Font.Ubuntu
+Title.Text = "ExampleText"
+Title.TextColor3 = Color3.fromRGB(85, 0, 0)
+Title.TextSize = 30.000
+Title.TextWrapped = true
+Title.TextXAlignment = Enum.TextXAlignment.Left
+
+Close.Name = "Close"
+Close.Parent = TopFrame
+Close.BackgroundTransparency = 1.000
+Close.BorderColor3 = Color3.fromRGB(43, 44, 47)
+Close.BorderSizePixel = 0
+Close.Position = UDim2.new(0.938000023, 0, 0.135000005, 0)
+Close.Size = UDim2.new(0, 26, 0, 26)
+Close.Image = "rbxassetid://3944676352"
+Close.ImageColor3 = Color3.fromRGB(131, 140, 156)
+Close.ScaleType = Enum.ScaleType.Fit
+
+NavDecorFrame.Name = "NavDecorFrame"
+NavDecorFrame.Parent = TopFrame
+NavDecorFrame.BackgroundColor3 = Color3.fromRGB(51, 53, 61)
+NavDecorFrame.BorderSizePixel = 0
+NavDecorFrame.Position = UDim2.new(0.24608621, 0, 0.995866537, 0)
+NavDecorFrame.Size = UDim2.new(0, 4, 0, 241)
+
+FramesFrame.Name = "FramesFrame"
+FramesFrame.Parent = TopFrame
+FramesFrame.BackgroundColor3 = Color3.fromRGB(51, 53, 62)
+FramesFrame.BorderSizePixel = 0
+FramesFrame.Position = UDim2.new(0.255230129, 0, 1.91891932, 0)
+FramesFrame.Size = UDim2.new(0, 356, 0, 207)
+
+HomeFrame.Name = "HomeFrame"
+HomeFrame.Parent = FramesFrame
+HomeFrame.BackgroundColor3 = Color3.fromRGB(51, 53, 61)
+HomeFrame.BorderSizePixel = 0
+HomeFrame.Size = UDim2.new(0, 356, 0, 207)
+
+Creds.Name = "Creds"
+Creds.Parent = HomeFrame
+Creds.BackgroundColor3 = Color3.fromRGB(51, 53, 62)
+Creds.BackgroundTransparency = 1.000
+Creds.BorderSizePixel = 0
+Creds.Position = UDim2.new(0.0308988765, 0, 0.0640627444, 0)
+Creds.Size = UDim2.new(0, 334, 0, 34)
+Creds.Font = Enum.Font.Ubuntu
+Creds.Text = "Script by Nyko#8409"
+Creds.TextColor3 = Color3.fromRGB(131, 140, 156)
+Creds.TextSize = 14.000
+
+Instructions.Name = "Instructions"
+Instructions.Parent = HomeFrame
+Instructions.BackgroundColor3 = Color3.fromRGB(51, 53, 62)
+Instructions.BackgroundTransparency = 1.000
+Instructions.BorderSizePixel = 0
+Instructions.Position = UDim2.new(0.0308988746, 0, 0.230810493, 0)
+Instructions.Size = UDim2.new(0, 334, 0, 72)
+Instructions.Font = Enum.Font.Ubuntu
+Instructions.Text = " "
+Instructions.TextColor3 = Color3.fromRGB(131, 140, 156)
+Instructions.TextSize = 14.000
+Instructions.TextWrapped = true
+
+Info.Name = "Info"
+Info.Parent = HomeFrame
+Info.BackgroundColor3 = Color3.fromRGB(51, 53, 62)
+Info.BackgroundTransparency = 1.000
+Info.BorderSizePixel = 0
+Info.Position = UDim2.new(0.0308988765, 0, 0.578636587, 0)
+Info.Size = UDim2.new(0, 334, 0, 42)
+Info.Font = Enum.Font.Ubuntu
+Info.Text = " "
+Info.TextColor3 = Color3.fromRGB(131, 140, 156)
+Info.TextSize = 14.000
+Info.TextWrapped = true
+
+MoreInfo.Name = "MoreInfo"
+MoreInfo.Parent = HomeFrame
+MoreInfo.BackgroundColor3 = Color3.fromRGB(51, 53, 62)
+MoreInfo.BackgroundTransparency = 1.000
+MoreInfo.BorderSizePixel = 0
+MoreInfo.Position = UDim2.new(0.0308988765, 0, 0.781535149, 0)
+MoreInfo.Size = UDim2.new(0, 334, 0, 42)
+MoreInfo.Font = Enum.Font.Ubuntu
+MoreInfo.Text = "If you bought this you were scammed."
+MoreInfo.TextColor3 = Color3.fromRGB(131, 140, 156)
+MoreInfo.TextSize = 14.000
+MoreInfo.TextWrapped = true
+
+Template2BackFrame.Name = "Template2BackFrame"
+Template2BackFrame.Parent = FramesFrame
+Template2BackFrame.BackgroundColor3 = Color3.fromRGB(51, 53, 61)
+Template2BackFrame.BorderSizePixel = 0
+Template2BackFrame.Size = UDim2.new(0, 356, 0, 207)
+Template2BackFrame.Visible = false
+
+TextButton.Parent = Template2BackFrame
+TextButton.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.497191012, -54, 0.108695664, -12)
+TextButton.Size = UDim2.new(0, 108, 0, 25)
+TextButton.Font = Enum.Font.Ubuntu
+TextButton.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton.TextSize = 14.000
+
+TextButton_2.Parent = Template2BackFrame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Position = UDim2.new(0.997191012, -117, 0.108695664, -12)
+TextButton_2.Size = UDim2.new(0, 108, 0, 25)
+TextButton_2.Font = Enum.Font.Ubuntu
+TextButton_2.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_2.TextSize = 14.000
+
+TextButton_3.Parent = Template2BackFrame
+TextButton_3.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_3.BorderSizePixel = 0
+TextButton_3.Position = UDim2.new(-0.00280898879, 9, 0.108695664, -12)
+TextButton_3.Size = UDim2.new(0, 108, 0, 25)
+TextButton_3.Font = Enum.Font.Ubuntu
+TextButton_3.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_3.TextSize = 14.000
+
+TextButton_4.Parent = Template2BackFrame
+TextButton_4.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_4.BorderSizePixel = 0
+TextButton_4.Position = UDim2.new(0.997191012, -117, 0.263285011, -12)
+TextButton_4.Size = UDim2.new(0, 108, 0, 25)
+TextButton_4.Font = Enum.Font.Ubuntu
+TextButton_4.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_4.TextSize = 14.000
+
+TextButton_5.Parent = Template2BackFrame
+TextButton_5.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_5.BorderSizePixel = 0
+TextButton_5.Position = UDim2.new(0.497191012, -54, 0.263285011, -12)
+TextButton_5.Size = UDim2.new(0, 108, 0, 25)
+TextButton_5.Font = Enum.Font.Ubuntu
+TextButton_5.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_5.TextSize = 14.000
+
+TextButton_6.Parent = Template2BackFrame
+TextButton_6.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_6.BorderSizePixel = 0
+TextButton_6.Position = UDim2.new(-0.00280898879, 9, 0.263285011, -12)
+TextButton_6.Size = UDim2.new(0, 108, 0, 25)
+TextButton_6.Font = Enum.Font.Ubuntu
+TextButton_6.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_6.TextSize = 14.000
+
+TextButton_7.Parent = Template2BackFrame
+TextButton_7.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_7.BorderSizePixel = 0
+TextButton_7.Position = UDim2.new(-0.00280898879, 9, 0.57246381, -12)
+TextButton_7.Size = UDim2.new(0, 108, 0, 25)
+TextButton_7.Font = Enum.Font.Ubuntu
+TextButton_7.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_7.TextSize = 14.000
+
+TextButton_8.Parent = Template2BackFrame
+TextButton_8.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_8.BorderSizePixel = 0
+TextButton_8.Position = UDim2.new(0.997191012, -117, 0.417874396, -12)
+TextButton_8.Size = UDim2.new(0, 108, 0, 25)
+TextButton_8.Font = Enum.Font.Ubuntu
+TextButton_8.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_8.TextSize = 14.000
+
+TextButton_9.Parent = Template2BackFrame
+TextButton_9.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_9.BorderSizePixel = 0
+TextButton_9.Position = UDim2.new(0.497191012, -54, 0.417874396, -12)
+TextButton_9.Size = UDim2.new(0, 108, 0, 25)
+TextButton_9.Font = Enum.Font.Ubuntu
+TextButton_9.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_9.TextSize = 14.000
+
+TextButton_10.Parent = Template2BackFrame
+TextButton_10.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_10.BorderSizePixel = 0
+TextButton_10.Position = UDim2.new(-0.00280898879, 9, 0.417874396, -12)
+TextButton_10.Size = UDim2.new(0, 108, 0, 25)
+TextButton_10.Font = Enum.Font.Ubuntu
+TextButton_10.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_10.TextSize = 14.000
+
+TextButton_11.Parent = Template2BackFrame
+TextButton_11.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_11.BorderSizePixel = 0
+TextButton_11.Position = UDim2.new(0.497191012, -54, 0.57246381, -12)
+TextButton_11.Size = UDim2.new(0, 108, 0, 25)
+TextButton_11.Font = Enum.Font.Ubuntu
+TextButton_11.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_11.TextSize = 14.000
+
+TextButton_12.Parent = Template2BackFrame
+TextButton_12.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_12.BorderSizePixel = 0
+TextButton_12.Position = UDim2.new(0.997191012, -117, 0.57246381, -12)
+TextButton_12.Size = UDim2.new(0, 108, 0, 25)
+TextButton_12.Font = Enum.Font.Ubuntu
+TextButton_12.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_12.TextSize = 14.000
+
+TextButton_13.Parent = Template2BackFrame
+TextButton_13.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_13.BorderSizePixel = 0
+TextButton_13.Position = UDim2.new(0.997191012, -117, 0.88164252, -12)
+TextButton_13.Size = UDim2.new(0, 108, 0, 25)
+TextButton_13.Font = Enum.Font.Ubuntu
+TextButton_13.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_13.TextSize = 14.000
+
+TextButton_14.Parent = Template2BackFrame
+TextButton_14.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_14.BorderSizePixel = 0
+TextButton_14.Position = UDim2.new(0.497191012, -54, 0.88164252, -12)
+TextButton_14.Size = UDim2.new(0, 108, 0, 25)
+TextButton_14.Font = Enum.Font.Ubuntu
+TextButton_14.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_14.TextSize = 14.000
+
+TextButton_15.Parent = Template2BackFrame
+TextButton_15.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_15.BorderSizePixel = 0
+TextButton_15.Position = UDim2.new(-0.00280898879, 9, 0.88164252, -12)
+TextButton_15.Size = UDim2.new(0, 108, 0, 25)
+TextButton_15.Font = Enum.Font.Ubuntu
+TextButton_15.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_15.TextSize = 14.000
+
+TextButton_16.Parent = Template2BackFrame
+TextButton_16.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_16.BorderSizePixel = 0
+TextButton_16.Position = UDim2.new(-0.00280898879, 9, 0.727053165, -12)
+TextButton_16.Size = UDim2.new(0, 108, 0, 25)
+TextButton_16.Font = Enum.Font.Ubuntu
+TextButton_16.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_16.TextSize = 14.000
+
+TextButton_17.Parent = Template2BackFrame
+TextButton_17.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_17.BorderSizePixel = 0
+TextButton_17.Position = UDim2.new(0.497191012, -54, 0.727053165, -12)
+TextButton_17.Size = UDim2.new(0, 108, 0, 25)
+TextButton_17.Font = Enum.Font.Ubuntu
+TextButton_17.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_17.TextSize = 14.000
+
+TextButton_18.Parent = Template2BackFrame
+TextButton_18.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_18.BorderSizePixel = 0
+TextButton_18.Position = UDim2.new(0.997191012, -117, 0.727053165, -12)
+TextButton_18.Size = UDim2.new(0, 108, 0, 25)
+TextButton_18.Font = Enum.Font.Ubuntu
+TextButton_18.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_18.TextSize = 14.000
+
+Template3BackFrame.Name = "Template3BackFrame"
+Template3BackFrame.Parent = FramesFrame
+Template3BackFrame.BackgroundColor3 = Color3.fromRGB(51, 53, 61)
+Template3BackFrame.BorderSizePixel = 0
+Template3BackFrame.Size = UDim2.new(0, 356, 0, 207)
+Template3BackFrame.Visible = false
+
+TextButton_19.Parent = Template3BackFrame
+TextButton_19.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_19.BorderSizePixel = 0
+TextButton_19.Position = UDim2.new(0.00561797712, 9, 0.113526568, -12)
+TextButton_19.Size = UDim2.new(0, 334, 0, 42)
+TextButton_19.Font = Enum.Font.Ubuntu
+TextButton_19.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_19.TextSize = 14.000
+
+TextButton_20.Parent = Template3BackFrame
+TextButton_20.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_20.BorderSizePixel = 0
+TextButton_20.Position = UDim2.new(0.00842696615, 9, 0.45652172, -12)
+TextButton_20.Size = UDim2.new(0, 334, 0, 42)
+TextButton_20.Font = Enum.Font.Ubuntu
+TextButton_20.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_20.TextSize = 14.000
+
+TextButton_21.Parent = Template3BackFrame
+TextButton_21.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_21.BorderSizePixel = 0
+TextButton_21.Position = UDim2.new(0.00842696615, 9, 0.799516916, -12)
+TextButton_21.Size = UDim2.new(0, 334, 0, 42)
+TextButton_21.Font = Enum.Font.Ubuntu
+TextButton_21.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_21.TextSize = 14.000
+
+Template1BackFrame.Name = "Template1BackFrame"
+Template1BackFrame.Parent = FramesFrame
+Template1BackFrame.BackgroundColor3 = Color3.fromRGB(51, 53, 61)
+Template1BackFrame.BorderSizePixel = 0
+Template1BackFrame.Size = UDim2.new(0, 356, 0, 207)
+Template1BackFrame.Visible = false
+
+TPTab3.Name = "TPTab3"
+TPTab3.Parent = Template1BackFrame
+TPTab3.BackgroundColor3 = Color3.fromRGB(43, 44, 47)
+TPTab3.BorderSizePixel = 0
+TPTab3.Position = UDim2.new(0.665730357, 0, 0, 0)
+TPTab3.Size = UDim2.new(0, 119, 0, 22)
+TPTab3.Font = Enum.Font.Ubuntu
+TPTab3.TextColor3 = Color3.fromRGB(131, 140, 156)
+TPTab3.TextSize = 14.000
+
+TPTab2.Name = "TPTab2"
+TPTab2.Parent = Template1BackFrame
+TPTab2.BackgroundColor3 = Color3.fromRGB(43, 44, 47)
+TPTab2.BorderSizePixel = 0
+TPTab2.Position = UDim2.new(0.331460685, 0, 0, 0)
+TPTab2.Size = UDim2.new(0, 119, 0, 22)
+TPTab2.Font = Enum.Font.Ubuntu
+TPTab2.TextColor3 = Color3.fromRGB(131, 140, 156)
+TPTab2.TextSize = 14.000
+
+TPTab1.Name = "TPTab1"
+TPTab1.Parent = Template1BackFrame
+TPTab1.BackgroundColor3 = Color3.fromRGB(43, 44, 47)
+TPTab1.BorderSizePixel = 0
+TPTab1.Size = UDim2.new(0, 119, 0, 22)
+TPTab1.Font = Enum.Font.Ubuntu
+TPTab1.TextColor3 = Color3.fromRGB(131, 140, 156)
+TPTab1.TextSize = 14.000
+
+Tabnamedecorframe_2.Name = "Tabnamedecorframe"
+Tabnamedecorframe_2.Parent = Template1BackFrame
+Tabnamedecorframe_2.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+Tabnamedecorframe_2.BorderSizePixel = 0
+Tabnamedecorframe_2.Position = UDim2.new(0, 0, 0.106280208, 0)
+Tabnamedecorframe_2.Size = UDim2.new(0, 356, 0, 4)
+
+TPFrame1.Name = "TPFrame1"
+TPFrame1.Parent = Template1BackFrame
+TPFrame1.BackgroundColor3 = Color3.fromRGB(51, 53, 61)
+TPFrame1.BorderSizePixel = 0
+TPFrame1.Position = UDim2.new(-0.00280897319, 0, 0.125603855, 0)
+TPFrame1.Size = UDim2.new(0, 357, 0, 181)
+
+TextButton_22.Parent = TPFrame1
+TextButton_22.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_22.BorderSizePixel = 0
+TextButton_22.Position = UDim2.new(0.0265731215, 0, 0.0748088136, 0)
+TextButton_22.Size = UDim2.new(0, 108, 0, 25)
+TextButton_22.Font = Enum.Font.Ubuntu
+TextButton_22.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_22.TextSize = 14.000
+
+TextButton_23.Parent = TPFrame1
+TextButton_23.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_23.BorderSizePixel = 0
+TextButton_23.Position = UDim2.new(0.0265731215, 0, 0.25357011, 0)
+TextButton_23.Size = UDim2.new(0, 108, 0, 25)
+TextButton_23.Font = Enum.Font.Ubuntu
+TextButton_23.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_23.TextSize = 14.000
+
+TextButton_24.Parent = TPFrame1
+TextButton_24.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_24.BorderSizePixel = 0
+TextButton_24.Position = UDim2.new(0.0265731215, 0, 0.428186446, 0)
+TextButton_24.Size = UDim2.new(0, 108, 0, 25)
+TextButton_24.Font = Enum.Font.Ubuntu
+TextButton_24.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_24.TextSize = 14.000
+
+TextButton_25.Parent = TPFrame1
+TextButton_25.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_25.BorderSizePixel = 0
+TextButton_25.Position = UDim2.new(0.0265731215, 0, 0.60694778, 0)
+TextButton_25.Size = UDim2.new(0, 108, 0, 25)
+TextButton_25.Font = Enum.Font.Ubuntu
+TextButton_25.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_25.TextSize = 14.000
+
+TextButton_26.Parent = TPFrame1
+TextButton_26.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_26.BorderSizePixel = 0
+TextButton_26.Position = UDim2.new(0.0265731215, 0, 0.783868432, 0)
+TextButton_26.Size = UDim2.new(0, 108, 0, 25)
+TextButton_26.Font = Enum.Font.Ubuntu
+TextButton_26.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_26.TextSize = 14.000
+
+TextButton_27.Parent = TPFrame1
+TextButton_27.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_27.BorderSizePixel = 0
+TextButton_27.Position = UDim2.new(0.348701984, 0, 0.783868432, 0)
+TextButton_27.Size = UDim2.new(0, 108, 0, 25)
+TextButton_27.Font = Enum.Font.Ubuntu
+TextButton_27.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_27.TextSize = 14.000
+
+TextButton_28.Parent = TPFrame1
+TextButton_28.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_28.BorderSizePixel = 0
+TextButton_28.Position = UDim2.new(0.348701984, 0, 0.60694778, 0)
+TextButton_28.Size = UDim2.new(0, 108, 0, 25)
+TextButton_28.Font = Enum.Font.Ubuntu
+TextButton_28.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_28.TextSize = 14.000
+
+TextButton_29.Parent = TPFrame1
+TextButton_29.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_29.BorderSizePixel = 0
+TextButton_29.Position = UDim2.new(0.348701984, 0, 0.428186446, 0)
+TextButton_29.Size = UDim2.new(0, 108, 0, 25)
+TextButton_29.Font = Enum.Font.Ubuntu
+TextButton_29.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_29.TextSize = 14.000
+
+TextButton_30.Parent = TPFrame1
+TextButton_30.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_30.BorderSizePixel = 0
+TextButton_30.Position = UDim2.new(0.348701984, 0, 0.25357011, 0)
+TextButton_30.Size = UDim2.new(0, 108, 0, 25)
+TextButton_30.Font = Enum.Font.Ubuntu
+TextButton_30.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_30.TextSize = 14.000
+
+TextButton_31.Parent = TPFrame1
+TextButton_31.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_31.BorderSizePixel = 0
+TextButton_31.Position = UDim2.new(0.348701984, 0, 0.0748088136, 0)
+TextButton_31.Size = UDim2.new(0, 108, 0, 25)
+TextButton_31.Font = Enum.Font.Ubuntu
+TextButton_31.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_31.TextSize = 14.000
+
+TextButton_32.Parent = TPFrame1
+TextButton_32.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_32.BorderSizePixel = 0
+TextButton_32.Position = UDim2.new(0.670830846, 0, 0.783868432, 0)
+TextButton_32.Size = UDim2.new(0, 108, 0, 25)
+TextButton_32.Font = Enum.Font.Ubuntu
+TextButton_32.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_32.TextSize = 14.000
+
+TextButton_33.Parent = TPFrame1
+TextButton_33.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_33.BorderSizePixel = 0
+TextButton_33.Position = UDim2.new(0.670830846, 0, 0.60694778, 0)
+TextButton_33.Size = UDim2.new(0, 108, 0, 25)
+TextButton_33.Font = Enum.Font.Ubuntu
+TextButton_33.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_33.TextSize = 14.000
+
+TextButton_34.Parent = TPFrame1
+TextButton_34.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_34.BorderSizePixel = 0
+TextButton_34.Position = UDim2.new(0.670830846, 0, 0.428186446, 0)
+TextButton_34.Size = UDim2.new(0, 108, 0, 25)
+TextButton_34.Font = Enum.Font.Ubuntu
+TextButton_34.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_34.TextSize = 14.000
+
+TextButton_35.Parent = TPFrame1
+TextButton_35.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_35.BorderSizePixel = 0
+TextButton_35.Position = UDim2.new(0.670830846, 0, 0.25357011, 0)
+TextButton_35.Size = UDim2.new(0, 108, 0, 25)
+TextButton_35.Font = Enum.Font.Ubuntu
+TextButton_35.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_35.TextSize = 14.000
+
+TextButton_36.Parent = TPFrame1
+TextButton_36.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_36.BorderSizePixel = 0
+TextButton_36.Position = UDim2.new(0.670830846, 0, 0.0748088136, 0)
+TextButton_36.Size = UDim2.new(0, 108, 0, 25)
+TextButton_36.Font = Enum.Font.Ubuntu
+TextButton_36.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_36.TextSize = 14.000
+
+TPFrame3.Name = "TPFrame3"
+TPFrame3.Parent = Template1BackFrame
+TPFrame3.BackgroundColor3 = Color3.fromRGB(51, 53, 61)
+TPFrame3.BorderSizePixel = 0
+TPFrame3.Position = UDim2.new(-0.00280897319, 0, 0.125603855, 0)
+TPFrame3.Size = UDim2.new(0, 357, 0, 181)
+TPFrame3.Visible = false
+
+TextButton_37.Parent = TPFrame3
+TextButton_37.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_37.BorderSizePixel = 0
+TextButton_37.Position = UDim2.new(0.0265731215, 0, 0.0748088136, 0)
+TextButton_37.Size = UDim2.new(0, 108, 0, 25)
+TextButton_37.Font = Enum.Font.Ubuntu
+TextButton_37.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_37.TextSize = 14.000
+
+TextButton_38.Parent = TPFrame3
+TextButton_38.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_38.BorderSizePixel = 0
+TextButton_38.Position = UDim2.new(0.0265731215, 0, 0.25357011, 0)
+TextButton_38.Size = UDim2.new(0, 108, 0, 25)
+TextButton_38.Font = Enum.Font.Ubuntu
+TextButton_38.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_38.TextSize = 14.000
+
+TextButton_39.Parent = TPFrame3
+TextButton_39.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_39.BorderSizePixel = 0
+TextButton_39.Position = UDim2.new(0.0265731215, 0, 0.428186446, 0)
+TextButton_39.Size = UDim2.new(0, 108, 0, 25)
+TextButton_39.Font = Enum.Font.Ubuntu
+TextButton_39.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_39.TextSize = 14.000
+
+TextButton_40.Parent = TPFrame3
+TextButton_40.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_40.BorderSizePixel = 0
+TextButton_40.Position = UDim2.new(0.0265731215, 0, 0.60694778, 0)
+TextButton_40.Size = UDim2.new(0, 108, 0, 25)
+TextButton_40.Font = Enum.Font.Ubuntu
+TextButton_40.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_40.TextSize = 14.000
+
+TextButton_41.Parent = TPFrame3
+TextButton_41.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_41.BorderSizePixel = 0
+TextButton_41.Position = UDim2.new(0.0265731215, 0, 0.783868432, 0)
+TextButton_41.Size = UDim2.new(0, 108, 0, 25)
+TextButton_41.Font = Enum.Font.Ubuntu
+TextButton_41.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_41.TextSize = 14.000
+
+TextButton_42.Parent = TPFrame3
+TextButton_42.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_42.BorderSizePixel = 0
+TextButton_42.Position = UDim2.new(0.348701984, 0, 0.783868432, 0)
+TextButton_42.Size = UDim2.new(0, 108, 0, 25)
+TextButton_42.Font = Enum.Font.Ubuntu
+TextButton_42.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_42.TextSize = 14.000
+
+TextButton_43.Parent = TPFrame3
+TextButton_43.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_43.BorderSizePixel = 0
+TextButton_43.Position = UDim2.new(0.348701984, 0, 0.60694778, 0)
+TextButton_43.Size = UDim2.new(0, 108, 0, 25)
+TextButton_43.Font = Enum.Font.Ubuntu
+TextButton_43.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_43.TextSize = 14.000
+
+TextButton_44.Parent = TPFrame3
+TextButton_44.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_44.BorderSizePixel = 0
+TextButton_44.Position = UDim2.new(0.348701984, 0, 0.428186446, 0)
+TextButton_44.Size = UDim2.new(0, 108, 0, 25)
+TextButton_44.Font = Enum.Font.Ubuntu
+TextButton_44.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_44.TextSize = 14.000
+
+TextButton_45.Parent = TPFrame3
+TextButton_45.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_45.BorderSizePixel = 0
+TextButton_45.Position = UDim2.new(0.348701984, 0, 0.25357011, 0)
+TextButton_45.Size = UDim2.new(0, 108, 0, 25)
+TextButton_45.Font = Enum.Font.Ubuntu
+TextButton_45.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_45.TextSize = 14.000
+
+TextButton_46.Parent = TPFrame3
+TextButton_46.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_46.BorderSizePixel = 0
+TextButton_46.Position = UDim2.new(0.348701984, 0, 0.0748088136, 0)
+TextButton_46.Size = UDim2.new(0, 108, 0, 25)
+TextButton_46.Font = Enum.Font.Ubuntu
+TextButton_46.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_46.TextSize = 14.000
+
+TextButton_47.Parent = TPFrame3
+TextButton_47.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_47.BorderSizePixel = 0
+TextButton_47.Position = UDim2.new(0.670830846, 0, 0.783868432, 0)
+TextButton_47.Size = UDim2.new(0, 108, 0, 25)
+TextButton_47.Font = Enum.Font.Ubuntu
+TextButton_47.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_47.TextSize = 14.000
+
+TextButton_48.Parent = TPFrame3
+TextButton_48.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_48.BorderSizePixel = 0
+TextButton_48.Position = UDim2.new(0.670830846, 0, 0.60694778, 0)
+TextButton_48.Size = UDim2.new(0, 108, 0, 25)
+TextButton_48.Font = Enum.Font.Ubuntu
+TextButton_48.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_48.TextSize = 14.000
+
+TextButton_49.Parent = TPFrame3
+TextButton_49.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_49.BorderSizePixel = 0
+TextButton_49.Position = UDim2.new(0.670830846, 0, 0.428186446, 0)
+TextButton_49.Size = UDim2.new(0, 108, 0, 25)
+TextButton_49.Font = Enum.Font.Ubuntu
+TextButton_49.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_49.TextSize = 14.000
+
+TextButton_50.Parent = TPFrame3
+TextButton_50.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_50.BorderSizePixel = 0
+TextButton_50.Position = UDim2.new(0.670830846, 0, 0.25357011, 0)
+TextButton_50.Size = UDim2.new(0, 108, 0, 25)
+TextButton_50.Font = Enum.Font.Ubuntu
+TextButton_50.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_50.TextSize = 14.000
+
+TextButton_51.Parent = TPFrame3
+TextButton_51.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_51.BorderSizePixel = 0
+TextButton_51.Position = UDim2.new(0.670830846, 0, 0.0748088136, 0)
+TextButton_51.Size = UDim2.new(0, 108, 0, 25)
+TextButton_51.Font = Enum.Font.Ubuntu
+TextButton_51.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_51.TextSize = 14.000
+
+TPFrame2.Name = "TPFrame2"
+TPFrame2.Parent = Template1BackFrame
+TPFrame2.BackgroundColor3 = Color3.fromRGB(51, 53, 61)
+TPFrame2.BorderSizePixel = 0
+TPFrame2.Position = UDim2.new(-0.00280897319, 0, 0.125603855, 0)
+TPFrame2.Size = UDim2.new(0, 357, 0, 181)
+TPFrame2.Visible = false
+
+TextButton_52.Parent = TPFrame2
+TextButton_52.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_52.BorderSizePixel = 0
+TextButton_52.Position = UDim2.new(0.0265731215, 0, 0.0748088136, 0)
+TextButton_52.Size = UDim2.new(0, 108, 0, 25)
+TextButton_52.Font = Enum.Font.Ubuntu
+TextButton_52.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_52.TextSize = 14.000
+
+TextButton_53.Parent = TPFrame2
+TextButton_53.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_53.BorderSizePixel = 0
+TextButton_53.Position = UDim2.new(0.0265731215, 0, 0.25357011, 0)
+TextButton_53.Size = UDim2.new(0, 108, 0, 25)
+TextButton_53.Font = Enum.Font.Ubuntu
+TextButton_53.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_53.TextSize = 14.000
+
+TextButton_54.Parent = TPFrame2
+TextButton_54.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_54.BorderSizePixel = 0
+TextButton_54.Position = UDim2.new(0.0265731215, 0, 0.428186446, 0)
+TextButton_54.Size = UDim2.new(0, 108, 0, 25)
+TextButton_54.Font = Enum.Font.Ubuntu
+TextButton_54.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_54.TextSize = 14.000
+
+TextButton_55.Parent = TPFrame2
+TextButton_55.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_55.BorderSizePixel = 0
+TextButton_55.Position = UDim2.new(0.0265731215, 0, 0.60694778, 0)
+TextButton_55.Size = UDim2.new(0, 108, 0, 25)
+TextButton_55.Font = Enum.Font.Ubuntu
+TextButton_55.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_55.TextSize = 14.000
+
+TextButton_56.Parent = TPFrame2
+TextButton_56.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_56.BorderSizePixel = 0
+TextButton_56.Position = UDim2.new(0.0265731215, 0, 0.783868432, 0)
+TextButton_56.Size = UDim2.new(0, 108, 0, 25)
+TextButton_56.Font = Enum.Font.Ubuntu
+TextButton_56.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_56.TextSize = 14.000
+
+TextButton_57.Parent = TPFrame2
+TextButton_57.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_57.BorderSizePixel = 0
+TextButton_57.Position = UDim2.new(0.348701984, 0, 0.783868432, 0)
+TextButton_57.Size = UDim2.new(0, 108, 0, 25)
+TextButton_57.Font = Enum.Font.Ubuntu
+TextButton_57.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_57.TextSize = 14.000
+
+TextButton_58.Parent = TPFrame2
+TextButton_58.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_58.BorderSizePixel = 0
+TextButton_58.Position = UDim2.new(0.348701984, 0, 0.60694778, 0)
+TextButton_58.Size = UDim2.new(0, 108, 0, 25)
+TextButton_58.Font = Enum.Font.Ubuntu
+TextButton_58.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_58.TextSize = 14.000
+
+TextButton_59.Parent = TPFrame2
+TextButton_59.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_59.BorderSizePixel = 0
+TextButton_59.Position = UDim2.new(0.348701984, 0, 0.428186446, 0)
+TextButton_59.Size = UDim2.new(0, 108, 0, 25)
+TextButton_59.Font = Enum.Font.Ubuntu
+TextButton_59.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_59.TextSize = 14.000
+
+TextButton_60.Parent = TPFrame2
+TextButton_60.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_60.BorderSizePixel = 0
+TextButton_60.Position = UDim2.new(0.348701984, 0, 0.25357011, 0)
+TextButton_60.Size = UDim2.new(0, 108, 0, 25)
+TextButton_60.Font = Enum.Font.Ubuntu
+TextButton_60.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_60.TextSize = 14.000
+
+TextButton_61.Parent = TPFrame2
+TextButton_61.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_61.BorderSizePixel = 0
+TextButton_61.Position = UDim2.new(0.348701984, 0, 0.0748088136, 0)
+TextButton_61.Size = UDim2.new(0, 108, 0, 25)
+TextButton_61.Font = Enum.Font.Ubuntu
+TextButton_61.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_61.TextSize = 14.000
+
+TextButton_62.Parent = TPFrame2
+TextButton_62.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_62.BorderSizePixel = 0
+TextButton_62.Position = UDim2.new(0.670830846, 0, 0.783868432, 0)
+TextButton_62.Size = UDim2.new(0, 108, 0, 25)
+TextButton_62.Font = Enum.Font.Ubuntu
+TextButton_62.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_62.TextSize = 14.000
+
+TextButton_63.Parent = TPFrame2
+TextButton_63.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_63.BorderSizePixel = 0
+TextButton_63.Position = UDim2.new(0.670830846, 0, 0.60694778, 0)
+TextButton_63.Size = UDim2.new(0, 108, 0, 25)
+TextButton_63.Font = Enum.Font.Ubuntu
+TextButton_63.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_63.TextSize = 14.000
+
+TextButton_64.Parent = TPFrame2
+TextButton_64.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_64.BorderSizePixel = 0
+TextButton_64.Position = UDim2.new(0.670830846, 0, 0.428186446, 0)
+TextButton_64.Size = UDim2.new(0, 108, 0, 25)
+TextButton_64.Font = Enum.Font.Ubuntu
+TextButton_64.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_64.TextSize = 14.000
+
+TextButton_65.Parent = TPFrame2
+TextButton_65.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_65.BorderSizePixel = 0
+TextButton_65.Position = UDim2.new(0.670830846, 0, 0.25357011, 0)
+TextButton_65.Size = UDim2.new(0, 108, 0, 25)
+TextButton_65.Font = Enum.Font.Ubuntu
+TextButton_65.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_65.TextSize = 14.000
+
+TextButton_66.Parent = TPFrame2
+TextButton_66.BackgroundColor3 = Color3.fromRGB(57, 61, 68)
+TextButton_66.BorderSizePixel = 0
+TextButton_66.Position = UDim2.new(0.670830846, 0, 0.0748088136, 0)
+TextButton_66.Size = UDim2.new(0, 108, 0, 25)
+TextButton_66.Font = Enum.Font.Ubuntu
+TextButton_66.TextColor3 = Color3.fromRGB(179, 190, 216)
+TextButton_66.TextSize = 14.000
+
+Frame.Parent = TopFrame
+Frame.BackgroundColor3 = Color3.fromRGB(23, 23, 25)
+Frame.Position = UDim2.new(0, 0, 1.10800004, 0)
+Frame.Size = UDim2.new(0, 118, 0, 237)
+
+Cfg.Name = "Cfg"
+Cfg.Parent = Frame
+Cfg.BackgroundColor3 = Color3.fromRGB(56, 60, 67)
+Cfg.BorderColor3 = Color3.fromRGB(23, 23, 25)
+Cfg.BorderSizePixel = 2
+Cfg.Position = UDim2.new(0.0423728824, 0, 0.651184797, 0)
+Cfg.Size = UDim2.new(0, 117, 0, 26)
+Cfg.Font = Enum.Font.Ubuntu
+Cfg.Text = "Configuration"
+Cfg.TextColor3 = Color3.fromRGB(85, 0, 0)
+Cfg.TextSize = 14.000
+
+HomeTab.Name = "HomeTab"
+HomeTab.Parent = Frame
+HomeTab.BackgroundColor3 = Color3.fromRGB(56, 60, 67)
+HomeTab.BorderColor3 = Color3.fromRGB(23, 23, 25)
+HomeTab.BorderSizePixel = 2
+HomeTab.Position = UDim2.new(0.0423728824, 0, 0.240506321, 0)
+HomeTab.Size = UDim2.new(0, 117, 0, 26)
+HomeTab.Font = Enum.Font.Ubuntu
+HomeTab.Text = "Home"
+HomeTab.TextColor3 = Color3.fromRGB(85, 0, 0)
+HomeTab.TextSize = 14.000
+
+Main.Name = "Main"
+Main.Parent = Frame
+Main.BackgroundColor3 = Color3.fromRGB(56, 60, 67)
+Main.BorderColor3 = Color3.fromRGB(23, 23, 25)
+Main.BorderSizePixel = 2
+Main.Position = UDim2.new(0.0423728824, 0, 0.441626221, 0)
+Main.Size = UDim2.new(0, 117, 0, 26)
+Main.Font = Enum.Font.Ubuntu
+Main.Text = "Main"
+Main.TextColor3 = Color3.fromRGB(85, 0, 0)
+Main.TextSize = 14.000
+
+-- Scripts:
+
+local function WFWVEM_fake_script()
+	local script = Instance.new('LocalScript', TabNameLabel)
+
+	local TweeenService = game:GetService("TweenService")
+	local M = script.Parent	
+	local Goal = {TextColor3 = Color3.new(0.239216, 0.027451, 0.603922)}
+	--Set the tween:
+	
+	
+	local b = TweenInfo.new(
+	
+		3,
+	
+		Enum.EasingStyle.Cubic,
+	
+		Enum.EasingDirection.InOut,
+	
+		-1,
+	
+		true,
+	
+		0
+	
+	)
+	
+	local Tween = TweeenService:Create(M, b, Goal)
+	
+	Tween:Play()
+	
+end
+coroutine.wrap(WFWVEM_fake_script)()
+local function EMGTBPL_fake_script() -- Title.LocalScript 
+	local script = Instance.new('LocalScript', Title)
+
+	local TweeenService = game:GetService("TweenService")
+	local M = script.Parent	
+	local Goal = {TextColor3 = Color3.new(0.239216, 0.027451, 0.603922)}
+	--Set the tween:
+	
+	
+	local b = TweenInfo.new(
+	
+		3,
+	
+		Enum.EasingStyle.Cubic,
+	
+		Enum.EasingDirection.InOut,
+	
+		-1,
+	
+		true,
+	
+		0
+	
+	)
+	
+	local Tween = TweeenService:Create(M, b, Goal)
+	
+	Tween:Play()
+	
+end
+coroutine.wrap(EMGTBPL_fake_script)()
+local function QIRFRC_fake_script() -- Title.LocalScript 
+	local script = Instance.new('LocalScript', Title)
+
+	script.Parent.Text = "Exodius / "..game:GetService('Players').LocalPlayer.Name
+	
+	script.Parent.hidename.Changed:Connect(function(inst)
+		if inst == true then
+			script.Parent.Text = "Exodius / ".."nil"
+		elseif inst == false then
+			script.Parent.Text = "Exodius / "..game:GetService('Players').LocalPlayer.Name
+		end
+	end)
+end
+coroutine.wrap(QIRFRC_fake_script)()
+local function CHNOV_fake_script() -- Cfg.LocalScript 
+	local script = Instance.new('LocalScript', Cfg)
+
+	local TweeenService = game:GetService("TweenService")
+	local M = script.Parent	
+	local Goal = {TextColor3 = Color3.new(0.239216, 0.027451, 0.603922)}
+	--Set the tween:
+	
+	
+	local b = TweenInfo.new(
+	
+		3,
+	
+		Enum.EasingStyle.Cubic,
+	
+		Enum.EasingDirection.InOut,
+	
+		-1,
+	
+		true,
+	
+		0
+	
+	)
+	
+	local Tween = TweeenService:Create(M, b, Goal)
+	
+	Tween:Play()
+	
+end
+coroutine.wrap(CHNOV_fake_script)()
+local function BEVF_fake_script() -- HomeTab.LocalScript 
+	local script = Instance.new('LocalScript', HomeTab)
+
+	local TweeenService = game:GetService("TweenService")
+	local M = script.Parent	
+	local Goal = {TextColor3 = Color3.new(0.239216, 0.027451, 0.603922)}
+	--Set the tween:
+	
+	
+	local b = TweenInfo.new(
+	
+		3,
+	
+		Enum.EasingStyle.Cubic,
+	
+		Enum.EasingDirection.InOut,
+	
+		-1,
+	
+		true,
+	
+		0
+	
+	)
+	
+	local Tween = TweeenService:Create(M, b, Goal)
+	
+	Tween:Play()
+	
+end
+coroutine.wrap(BEVF_fake_script)()
+local function PDWHSP_fake_script() -- Main.LocalScript 
+	local script = Instance.new('LocalScript', Main)
+
+	local TweeenService = game:GetService("TweenService")
+	local M = script.Parent	
+	local Goal = {TextColor3 = Color3.new(0.239216, 0.027451, 0.603922)}
+	--Set the tween:
+	
+	
+	local b = TweenInfo.new(
+	
+		3,
+	
+		Enum.EasingStyle.Cubic,
+	
+		Enum.EasingDirection.InOut,
+	
+		-1,
+	
+		true,
+	
+		0
+	
+	)
+	
+	local Tween = TweeenService:Create(M, b, Goal)
+	
+	Tween:Play()
+	
+end
+coroutine.wrap(PDWHSP_fake_script)()
+
+hideval.Changed:Connect(function(inst)
+    if inst == true then
+		script.Parent.Text = "Exodius / ".."nil"
+	elseif inst == false then
+		script.Parent.Text = "Exodius / "..game:GetService('Players').LocalPlayer.Name
+	end
+end)
